@@ -11,4 +11,4 @@ An **Algorithm** is a set of well-defined instructions in sequence to solve a pr
 
 Hence, as the name suggests DSA deals with implementation of different **Data Structures** and **Algorithms** to tackle real world problems.
 
-I am currently working on written notes for all theoritical aspects of DSA. Hope to *complete* this course.
+I am currently working on written notes for all theoritical aspects of DSA. Hope to *complete* this course.  :simple_smile:
