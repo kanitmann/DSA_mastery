@@ -1,8 +1,8 @@
-# 1 "E:\\DSA Master\\Searching\\Linear Search.cpp"
+# 1 "E:\\DSA Master\\Searching\\2. Binary Search\\Binary Search.cpp"
 # 1 "E:\\DSA Master\\Searching//"
 # 1 "<built-in>"
 # 1 "<command-line>"
-# 1 "E:\\DSA Master\\Searching\\Linear Search.cpp"
+# 1 "E:\\DSA Master\\Searching\\2. Binary Search\\Binary Search.cpp"
 # 1 "C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream" 1 3
 # 36 "C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream" 3
        
@@ -26550,20 +26550,26 @@ namespace std
 
 
 }
-# 2 "E:\\DSA Master\\Searching\\Linear Search.cpp" 2
+# 2 "E:\\DSA Master\\Searching\\2. Binary Search\\Binary Search.cpp" 2
 
 
 
-# 4 "E:\\DSA Master\\Searching\\Linear Search.cpp"
+# 4 "E:\\DSA Master\\Searching\\2. Binary Search\\Binary Search.cpp"
 int sort(int arr[5], int key)
 {
-    int pos = 0;
-    for(int i=0;i<5;i++)
+    int f = 0; int r = 5;
+    while(f<=r)
     {
-        if(arr[i]==key)
-        return(i);
+        int mid = (f+r)/2;
+        if(arr[mid]==key)
+            return(mid);
+        else if(arr[mid]<key)
+            f = mid + 1;
+        else
+            f = mid - 1;
     }
-    return (-1);
+    if(f>r)
+        return (-1);
 }
 int main()
 {
@@ -26579,6 +26585,6 @@ int main()
     if (pos==-1)
     std::cout<<"\nElement not found.";
     else
-    std::cout<<"\nElement found as position "<<pos;
+    std::cout<<"\nElement found at position "<<pos+1;
     return 0;
 }

@@ -3,13 +3,19 @@
 #define MAX_SIZE 5
 int sort(int arr[MAX_SIZE], int key)
 {
-    int pos = 0;
-    for(int i=0;i<MAX_SIZE;i++)
+    int f = 0; int r = MAX_SIZE;
+    while(f<=r)
     {
-        if(arr[i]==key)
-        return(i);
+        int mid = (f+r)/2;
+        if(arr[mid]==key)
+            return(mid);
+        else if(arr[mid]<key)
+            f = mid + 1;
+        else
+            f = mid - 1;
     }
-    return (-1);
+    if(f>r)
+        return (-1);
 }
 int main()
 {
