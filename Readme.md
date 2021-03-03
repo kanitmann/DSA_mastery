@@ -1,1 +1,1 @@
-<img alt="c++" src="https://img.shields.io/static/v1?label=<LABEL>&message=<MESSAGE>&color=<COLOR>"/>
+<img alt="c++" src="https://img.shields.io/badge/Coded%20with%20%3C3%20on%20-C%2B%2B-blue"/>
