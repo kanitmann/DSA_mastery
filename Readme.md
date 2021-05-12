@@ -38,7 +38,7 @@ efficient.*
 
 ----------------------------------------------------------------
 
-## Space Complexity##
+## Space Complexity ##
 
 Space complexity of an algorithm quantifies the amount of time taken by a program to run as a function of length of the input. It is directly
 proportional to the largest memory your program acquires at any instance during run time.
