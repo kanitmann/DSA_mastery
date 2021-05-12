@@ -1,0 +1,1 @@
+{"name":"Local: 6","url":"e:\\Development\\CPP\\6.Pythagoras_Triplet.cpp","tests":[{"id":1620808960910,"input":"3 4 5","output":""},{"id":1620808969338,"input":"4 3 5","output":""},{"id":1620808983060,"input":"3 5 4","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Development\\CPP\\6.Pythagoras_Triplet.cpp","group":"local","local":true}
