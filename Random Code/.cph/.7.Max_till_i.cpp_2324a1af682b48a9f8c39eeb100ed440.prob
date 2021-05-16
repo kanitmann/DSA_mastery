@@ -1,1 +1,0 @@
-{"name":"Local: 7","url":"e:\\DSA Master\\Random Code\\7.Max_till_i.cpp","tests":[{"id":1620838346240,"input":"4 4 5 6 7","output":"4 4 5 6 7"},{"id":1620838786050,"input":"3 58 4 66","output":"58 58 66"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\DSA Master\\Random Code\\7.Max_till_i.cpp","group":"local","local":true}
